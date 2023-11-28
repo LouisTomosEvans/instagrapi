@@ -271,7 +271,7 @@ class LocationMixin:
     def location_medias_v1_chunk(
         self,
         location_pk: int,
-        max_amount: int = 63,
+        max_amount: int = 630,
         tab_key: str = "",
         max_id: str = None,
     ) -> Tuple[List[Media], str]:
